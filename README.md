@@ -8,7 +8,7 @@
 
 ## About
 
-A OpenGL jitter patch that transforms the webcam input to a black and white motion image. Open patcher and select camera input. Adjust brightness, contrast, saturation, blur, resolution, slide and threshold before output. Retrieve the texture in a different patcher with a `[receive threshold-tex]`.
+An OpenGL jitter patch that transforms the webcam input to a black and white motion image. Open patcher and select camera input. Adjust brightness, contrast, saturation, blur, resolution, slide and threshold before output. All processing is done on the GPU with shaders and jit.gl.pix. Retrieve the texture in a different patcher with a `[receive silhouette-tex]`.
 
 ![Overview of the patcher](media/overview.png)
 
